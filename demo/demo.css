@@ -1,22 +1,9 @@
-
-
-
-
-
-/*
-     FILE ARCHIVED ON 15:46:24 Jun 16, 2016 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 7:17:26 Jul 16, 2016.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
 #demo {
 	width: 800px;
 	height: 500px;
 	position: relative;
 	margin: 0px auto;
-	background: url("/web/20160616154624/http://www.virtuososheetmusic.com/demo/images/device.png") center center no-repeat;
+	background: url("images/device.png") center center no-repeat;
 	padding: 50px;
 	font-size: 12px;
 }

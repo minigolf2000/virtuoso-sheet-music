@@ -1,16 +1,3 @@
-
-
-
-
-
-/*
-     FILE ARCHIVED ON 15:46:25 Jun 16, 2016 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 7:17:26 Jul 16, 2016.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
 Event.observe(window, "load", function() {
 	var frames = $$(".frame");
 	frames[0].style.display = "block";

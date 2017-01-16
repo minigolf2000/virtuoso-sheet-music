@@ -1,38 +1,30 @@
 <!DOCTYPE html>
-
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-
-<script type="text/javascript" async="" src="ga.js"></script><script type="text/javascript" src="analytics.js"></script>
-<link type="text/css" rel="stylesheet" href="banner-styles.css">
-
-
-<link href="css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="http://www.virtuososheetmusic.com/favicon.ico">
-<link rel="stylesheet" href="virtuoso.css">
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" href="virtuoso.css" />
 <title>Virtuoso Sheet Music - Rediscovering Sheet Music</title>
 </head>
 
 <body>
-
-
 <div id="container">
-<h1><a href="http://www.virtuososheetmusic.com/"><img src="virtuoso.png" alt="Virtuoso"></a></h1>
+<h1><a href="index.html"><img src="virtuoso.png" alt="Virtuoso" /></a></h1>
 <h2 style="text-align: center">Rediscovering sheet music</h2>	<p id="description">
 		Virtuoso is a digital sheet music device that is changing the way musicians play.
 		Designed to replace a musician's sheet music collection, Virtuoso brings smart
 		technology to the simplicity of paper.
 	</p>
-
+	
 	<div id="demodiv">
-		<a id="demobutton" href="http://www.virtuososheetmusic.com/demo/index.html">Try the interactive demo!</a>
+		<a id="demobutton" href="demo/index.html">Try the interactive demo!</a>
 	</div>
-
+	
 	<div id="content">
 		<div style="float: right; margin: 60px 30px;">
-			<img src="onstand.png" alt="Device on Stand">
+			<img src="images/onstand.png" alt="Device on Stand" />
 		</div>
-
+		
 		<h3>Your music collection, the way you want it</h3>
 		<ul>
 			<li>Drag and drop to arrange your music library</li>
@@ -41,7 +33,7 @@
 			<li>Synced notetaking across multiple Virtuoso devices</li>
 			<li>Built in metronome, tuner</li>
 		</ul>
-
+		
 		<h3>The newest color E Ink display technology</h3>
 		<ul>
 			<li>High Contrast E Ink Triton display is readable in all lighting conditions</li>
@@ -50,30 +42,31 @@
 			<li>Lightweight, only .8 oz</li>
 			<li>Comes in Onyx Black or Ivory White</li>
 		</ul>
-
+		
 		<div style="margin: 40px 0px;">
-			<img src="folded1.png" alt="Folded Black">
-			<img src="folded2.png" alt="Folded White">
+			<img src="images/folded1.png" alt="Folded Black" />
+			<img src="images/folded2.png" alt="Folded White" />
 		</div>
-
-		<h3>Virtuoso SmartPen™</h3>
+		
+		<h3>Virtuoso SmartPen&trade;</h3>
 		<p>
-			The Virtuoso SmartPen™ is the easy way to mark your music. Tapping the page with your finger
+			The Virtuoso SmartPen&trade; is the easy way to mark your music. Tapping the page with your finger
 			usually plays back music, but writing on the page using the pen makes markings.
 			Using the tip of the pen writes notes and using the eraser end erases notes. You can switch between writing and highlighting by using the toggle on the pen.
 			When playing with multiple Virtuoso devices, musicians can synchronize their music, so notations made on one device copy themselves to the right spot
 			on everyone's page, making collaboration simple.
 		</p>
-		<p><img src="pen.png" alt="Pen"></p>
-
+		<p><img src="images/pen.png" alt="Pen" /></p>
+		
 		<h3>Musicians speak out</h3>
 		<div id="testimonials">
 			<p><q>I play piano, and page turning is a breeze now that I have Virtuoso.</q> - <span class="name"><strong>Eunhyo</strong>, Concert Pianist</span></p>
 			<p><q>I play outdoor weddings and I don't have to worry about pages blowing away in the wind.</q> - <span class="name"><strong>Sol</strong>, University of Oregon Trumpet Student</span></p>
 			<p><q>I carry a lot of music, and this lightens the load I have to bring with me everyday.</q> - <span class="name"><strong>Steven</strong>, High School Alto</span></p>
 		</div>
-
+		
 		<p><button id="preorderbutton">Preorder now!</button></p>
+		<p><a href="designprocess/index.html">Design Process</a></p>
 	</div>
 </div>
 
@@ -91,10 +84,12 @@ document.getElementById("preorderbutton").onclick = function() {
  (function() {
    var ga = document.createElement('script'); ga.type =
 'text/javascript'; ga.async = true;
-   ga.src = ('https:' == document.location.protocol ? '/web/20160403132805/https://ssl' :
-'/web/20160403132805/http://www') + '.google-analytics.com/ga.js';
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js';
    var s = document.getElementsByTagName('script')[0];
 s.parentNode.insertBefore(ga, s);
  })();
 
 </script>
+</body>
+</html>
