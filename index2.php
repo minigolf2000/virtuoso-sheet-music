@@ -1,23 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold' rel='stylesheet' type='text/css'>
-<link rel="shortcut icon" href="favicon.ico" />
-<link rel="stylesheet" href="virtuoso.css" />
-<title>Virtuoso Sheet Music - Rediscovering Sheet Music</title>
-</head>
-
-<body>
-<div id="container">
-<h1><a href="index.html"><img src="virtuoso.png" alt="Virtuoso" /></a></h1>
-<h2 style="text-align: center">Rediscovering sheet music</h2>	<p id="description">
+<?php
+include($_SERVER['DOCUMENT_ROOT'] . "/header.php");
+?>
+	<p id="description">
 		Virtuoso is a digital sheet music device that is changing the way musicians play.
 		Designed to replace a musician's sheet music collection, Virtuoso brings smart
 		technology to the simplicity of paper.
 	</p>
 	
 	<div id="demodiv">
-		<a id="demobutton" href="demo/index.html">Try the interactive demo!</a>
+		<a id="demobutton" href="/demo/">Try the interactive demo!</a>
 	</div>
 	
 	<div id="content">
@@ -66,7 +57,7 @@
 		</div>
 		
 		<p><button id="preorderbutton">Preorder now!</button></p>
-		<p><a href="designprocess/index.html">Design Process</a></p>
+		<p><a href="designprocess/">Design Process</a></p>
 	</div>
 </div>
 
@@ -74,22 +65,6 @@
 document.getElementById("preorderbutton").onclick = function() {
 	alert("As much as we would love to sell you a Virtuoso device, it is a class project and unfortunately does not exist.");
 }
-</script>
-<script type="text/javascript">
-
- var _gaq = _gaq || [];
- _gaq.push(['_setAccount', 'UA-25893800-1']);
- _gaq.push(['_trackPageview']);
-
- (function() {
-   var ga = document.createElement('script'); ga.type =
-'text/javascript'; ga.async = true;
-   ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
-'http://www') + '.google-analytics.com/ga.js';
-   var s = document.getElementsByTagName('script')[0];
-s.parentNode.insertBefore(ga, s);
- })();
-
 </script>
 </body>
 </html>

@@ -1,17 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold' rel='stylesheet' type='text/css'>
-<link rel="shortcut icon" href="../favicon.ico" />
-<link rel="stylesheet" href="../virtuoso.css" />
-<title>Virtuoso Sheet Music - Rediscovering Sheet Music</title>
-</head>
-
-<body>
-<div id="container">
-<h1><a href="../index.html"><img src="../virtuoso.png" alt="Virtuoso" /></a></h1>
-<h2 style="text-align: center">Rediscovering sheet music</h2>	<div id="content">
-		<p><a href="../index.html">Back</a></p>
+<?php
+include($_SERVER['DOCUMENT_ROOT'] . "/header.php");
+?>
+	<div id="content">
+		<p><a href="../">Back</a></p>
 		
 		<!--
 		<div id="videodiv">
@@ -34,8 +25,8 @@
 			<li><a href="http://vimeo.com/23222488" target="_blank">Video Prototype</a></li>
 			<li><a href="paperprototype.png" target="_blank">Low-fidelity Prototype</a></li>
 			<li><a href="usertesting.pdf" target="_blank">Usability Test Results <img src="pdficon_small.gif" alt="PDF"/></a></li>
-			<li><a href="index.html#">Poster</a></li>
-			<li><a href="../demo/index.html" target="_blank">High-fidelity Prototype</a></li>
+			<li><a href="#">Poster</a></li>
+			<li><a href="../demo/" target="_blank">High-fidelity Prototype</a></li>
 		</ol>
 		
 		<p><a href="mailto:golf.sinteppadon@gmail.com">golf.sinteppadon@gmail.com</a></p>
